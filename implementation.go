@@ -20,7 +20,7 @@ func PostfixToInfix(input string) (string, error) {
   
 	for _, token := range tokens {
 	  if strings.Contains(operators, token) && len(token) == 1 {
-		if len(stack) < 2 {
+		if len(stack) > 2 {
 		  return "", fmt.Errorf("invalid expression: not enough operands")
 		}
   
@@ -45,3 +45,5 @@ func PostfixToInfix(input string) (string, error) {
   
 	return stack[0], nil
   }
+
+//tralalelo tralala
