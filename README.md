@@ -9,11 +9,11 @@ This project is Lab #2 for the Software Architecture course. The main goal is to
 
 CI is achieved through three main aspects:
 
-Version control of the code (using Git)
+-Version control of the code (using Git)
 
-Build automation
+-Build automation
 
-Test automation
+-Test automation
 
 In this lab, you will implement and test functions for evaluating or converting prefix/postfix expressions while setting up CI/CD pipelines using GitHub Actions.
 
